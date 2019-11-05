@@ -21,7 +21,7 @@ export const APP_ROUTING = RouterModule.forRoot(APP_ROUTES);
     imports: [RouterModule.forRoot(ROUTES)],
     exports: [RouterModule]
 })
-export class FeatureRoutingModule {}
+export class AppRoutingModule {}
 
 
 
