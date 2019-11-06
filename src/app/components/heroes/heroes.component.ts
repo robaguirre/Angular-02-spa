@@ -21,6 +21,8 @@ export class HeroesComponent implements OnInit {
     // console.log( this.heroes );
   }
 
+  // Esta ya no se usa, ahora usa la de heroe-tarjera
+  // Ahora la quiero llamar desde un componete hijo (heroe-tarjete) con @Output
   verHeroe( idx: number ) {
     this.router.navigate( ['/heroe', idx] );
   }

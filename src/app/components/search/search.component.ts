@@ -23,6 +23,7 @@ export class SearchComponent implements OnInit {
     });
   }
 
+  // Esta ya no se usa, ahora usa la de heroe-tarjera
   verHeroe( idx: number ) {
     this.router.navigate( ['/heroe', idx] );
   }
